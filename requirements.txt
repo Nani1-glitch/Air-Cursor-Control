@@ -1,0 +1,5 @@
+opencv-python
+mediapipe
+pyautogui
+flask
+flask-socketio

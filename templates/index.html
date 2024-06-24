@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Finger Tracking</title>
+</head>
+<body>
+    <h1>Finger Tracking Interface</h1>
+    <button id="startBtn">Start Tracking</button>
+    <button id="stopBtn">Stop Tracking</button>
+    <div>
+        <h2>Gesture Configuration</h2>
+        <form id="configForm">
+            <label for="pinch">Pinch Action:</label>
+            <select id="pinch" name="pinch">
+                <option value="select">Select</option>
+                <option value="open">Open</option>
+            </select>
+            <label for="double_pinch">Double Pinch Action:</label>
+            <select id="double_pinch" name="double_pinch">
+                <option value="open">Open</option>
+                <option value="select">Select</option>
+            </select>
+            <button type="submit">Save</button>
+        </form>
+    </div>
+    <div>
+        <h2>Video Feed</h2>
+        <img src="{{ url_for('video_feed') }}" width="640" height="480">
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
