@@ -36,7 +36,7 @@ Follow these steps to set up and run the project on your local machine:
 
 1. **Clone the Repository** 🐙:
     ```sh
-    git clone https://github.com/yourusername/air-cursor-control.git
+    git clone https://github.com/Nani1-glitch/air-cursor-control.git
     cd air-cursor-control
     ```
 
