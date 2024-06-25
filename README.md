@@ -55,19 +55,16 @@ DEFAULT_GESTURE_CONFIG = {
     'double_pinch': 'open',
     'pinch_threshold': 0.05  # Default pinch threshold
 }
-Adjust the `pinch_threshold` to change the sensitivity of the pinch detection. 🎯
+Adjust the `pinch_threshold` to change the sensitivity of the pinch detection. 🎯 
 
-## 👨‍💻 About the Author
+
+
+👨‍💻 About the Author
 Hi, I'm Nithin Rajulapati! I'm a master's student with a strong background in computer science and extensive training in artificial intelligence. I am passionate about developing innovative solutions and leveraging AI to create intuitive and effective user interfaces. 🤖📚💡
 
-## 🤝 Contributing
+🤝 Contributing
 We welcome contributions to enhance the functionality and features of this project. To contribute:
 
-## Fork the repository 🍴
+Fork the repository 🍴
 Create a new branch for your feature or bugfix 🌿
 Submit a pull request with a detailed description of your changes 🔄
-## 📜 License
-This project is licensed under the MIT License. See the LICENSE file for more details. 📄
-
-css
-
