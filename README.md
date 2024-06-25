@@ -56,7 +56,7 @@ DEFAULT_GESTURE_CONFIG = {
     'pinch_threshold': 0.05  # Default pinch threshold
 }
 
-Adjust the `pinch_threshold` to change the sensitivity of the pinch detection. 🎯
+## Adjust the `pinch_threshold` to change the sensitivity of the pinch detection. 🎯
 
 ## 👨‍💻 About the Author
 
